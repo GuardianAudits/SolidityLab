@@ -53,7 +53,11 @@ Each and every community member is the most valuable resource at hand.
 
 <summary>Contributing</summary>
 
+The Vision and Mission can only be achieved through fervent collaboration. Every member of Solidity Lab is encouraged to give back and contribute whatever they can to enrich the experience for others.
 
+You'll find that by giving more, your own experience is enhanced.
+
+Contribute to this knowledge base by submitting a change request. Upon review, your change request will be merged and you will receive the `Contributor` role.
 
 </details>
 
