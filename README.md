@@ -28,7 +28,7 @@ On this site you'll find:
 
 ### Vision
 
-Empower an open, trustless, decentralized transaction layer; used by the entire world void of bugs and exploits.
+Empower an open, trustless, decentralized transaction layer; that anyone can build on with widespread access to the resources necessary to protect against bugs and exploits.
 
 ### Mission
 
