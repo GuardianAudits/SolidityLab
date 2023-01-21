@@ -8,7 +8,7 @@ Welcome to the Solidity Lab!
 
 This is a community aimed at building and sharing a wealth of blockchain and solidity knowledge to help developers/auditors of all levels transform the web3 ecosystem.
 
-Join our Discord here: [https://discord.gg/qDBbegYcPE](https://discord.gg/qDBbegYcPE)
+Join our Discord here: [https://discord.com/invite/qDBbegYcPE](https://discord.com/invite/qDBbegYcPE)
 
 ### What Is Solidity Lab?
 
@@ -47,8 +47,6 @@ Each and every community member is the most valuable resource at hand.
 * Vehemently Passionate
 * Inherently Collaborative
 
-
-
 <details>
 
 <summary>Contributing</summary>
@@ -60,8 +58,3 @@ You'll find that by giving more, your own experience is enhanced.
 Contribute to this knowledge base by submitting a change request. Upon review, your change request will be merged and you will receive the `Contributor` role.
 
 </details>
-
-
-
-
-
