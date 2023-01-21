@@ -10,6 +10,8 @@ This is a community aimed at building and sharing a wealth of blockchain and sol
 
 Join our Discord here: [https://discord.com/invite/qDBbegYcPE](https://discord.com/invite/qDBbegYcPE)
 
+
+
 ### What Is Solidity Lab?
 
 In Solidity Lab you'll get the opportunity to:
@@ -26,11 +28,15 @@ On this site you'll find:
 * An Encyclopedia containing information on all known Solidity attack vectors
 * An Encyclopedia containing information on all known common Solidity bugs
 
-### Vision
+
+
+### The Vision
 
 Empower an open, trustless, decentralized transaction layer; that anyone can build on with widespread access to the resources necessary to protect against bugs and exploits.
 
-### Mission
+
+
+### The Mission
 
 To accomplish the vision, the community must align on cultivating world-class auditors at scale.
 
@@ -38,7 +44,9 @@ We must radically adhere to our core values and take every chance to make it eas
 
 Each and every community member is the most valuable resource at hand.
 
-### Core Values
+
+
+### The Core Values
 
 * Thorough Without Exception
 * Long Term Oriented
@@ -46,6 +54,8 @@ Each and every community member is the most valuable resource at hand.
 * Constantly Curious
 * Vehemently Passionate
 * Inherently Collaborative
+
+
 
 <details>
 
