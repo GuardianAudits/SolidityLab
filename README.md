@@ -65,6 +65,6 @@ The Vision and Mission can only be achieved through fervent collaboration. Every
 
 You'll find that by giving more, your own experience is enhanced.
 
-Contribute to this knowledge base by submitting a change request. Upon review, your change request will be merged and you will receive the `Contributor` role.
+Contribute to this knowledge base by opening a pull request on [Github](https://github.com/GuardianAudits/SolidityLab). Upon review, your change request will be merged and you will receive the `Contributor` role.
 
 </details>
