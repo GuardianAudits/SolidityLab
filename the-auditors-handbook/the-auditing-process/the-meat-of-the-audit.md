@@ -10,11 +10,11 @@ At this point, you understand the contract system at a high level. Now it's time
 
 Examine the execution path for any edge cases you tagged, and do some further digging for the questions you left.
 
-Now is the time to start thinking about all the common attack vectors you have studied. As you pull threads, be on the lookout for all of the common bugs/vulnerabilities enumerated in the [encyclopedias (under construction)](../../encyclopedia-of-common-solidity-bugs/). As you see potential attacks or bugs leave an `@audit` tag and come back to them after you finish your current thread.
+Now is the time to start thinking about all the common attack vectors you have studied. As you pull threads, be on the lookout for all of the common bugs/vulnerabilities enumerated in the [encyclopedias (under construction)](../../encyclopedia-of-common-solidity-bugs/). In addition to common attack vectors, simple typos often yield critical bugs. Be sure to read each line carefully and look out for typos as you go.
 
-Sometimes it might be helpful to write a PoC to test your potential attack and verify the behavior matches your expectations.
+As you see potential attacks or bugs leave an `@audit` tag and come back to them after you finish your current thread. Sometimes it might be helpful to write a PoC to test your potential attack and verify the behavior matches your expectations.
 
-If you pull a thread and you decided it's a viable vulnerability/finding, add it to the findings doc with a precise description referencing exact line numbers. Ideally, other auditors should be able to understand the finding without reaching out for more context. After you add a finding to the doc, post it in the group or make a note to bring it up during a call so other auditors can learn from the finding.
+If you pull a thread and you decide it's a viable vulnerability/finding, add it to the findings doc with a precise description referencing exact line numbers. Ideally, other auditors should be able to understand the finding without reaching out for more context. After you add a finding to the doc, post it in the group or make a note to bring it up during a call so other auditors can learn from the finding.
 
 Remember to make `@audit` tags for gas optimizations you notice along the way as well, although these are not a priority.
 
