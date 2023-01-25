@@ -27,6 +27,7 @@ On this site you'll find:
 
 * An Encyclopedia containing information on all known Solidity attack vectors
 * An Encyclopedia containing information on all known common Solidity bugs
+* The Auditor's Handbook, a collection of guides for all things auditing
 
 
 
