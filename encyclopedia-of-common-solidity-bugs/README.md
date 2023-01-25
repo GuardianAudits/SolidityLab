@@ -1,8 +1,8 @@
 ---
-description: Every Known Common Solidity Bug
+description: Every known common solidity bug
 ---
 
-# Encyclopedia of Common Solidity Bugs
+# 📚 Encyclopedia of Common Solidity Bugs
 
 ## Known Bugs
 

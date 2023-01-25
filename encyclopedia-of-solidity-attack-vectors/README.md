@@ -1,8 +1,8 @@
 ---
-description: Every known Solidity attack vector.
+description: Every known solidity attack vector.
 ---
 
-# Encyclopedia of Solidity Attack Vectors
+# 📚 Encyclopedia of Solidity Attack Vectors
 
 ## Attack Vectors
 

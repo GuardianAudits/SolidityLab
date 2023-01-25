@@ -2,7 +2,7 @@
 description: Securing the Bleeding Edge of Blockchain
 ---
 
-# Guardian - Solidity Lab
+# 🧪 Guardian - Solidity Lab
 
 Welcome to the Solidity Lab!
 
