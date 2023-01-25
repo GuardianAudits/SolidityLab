@@ -1,0 +1,2 @@
+# 🕵 Delete Item, Unupdated Index
+

@@ -1,0 +1,2 @@
+# 🦺 Lack of Exception Handling
+
