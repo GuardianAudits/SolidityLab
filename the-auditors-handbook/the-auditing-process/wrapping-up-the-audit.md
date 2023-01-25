@@ -2,7 +2,7 @@
 description: It's been fun
 ---
 
-# Wrapping Up The Audit
+# 4⃣ Wrapping Up The Audit
 
 ### Tie Up Loose Ends
 
@@ -32,4 +32,4 @@ For each valid finding, populate a slide in the report with the description, fil
 
 For high-severity findings, link to their corresponding PoCs for more context.
 
-Deliver the report along with the test suite repo, this way the team can refer to PoCs, see the due diligence that was done, and perhaps even adopt the test suite as they make remediations.
+Deliver the report along with the test suite repo. With the repo included, the team can refer to PoCs, see the due diligence that was done, and perhaps even adopt the test suite as they make remediations.
