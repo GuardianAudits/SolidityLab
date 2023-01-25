@@ -2,11 +2,11 @@
 description: The audit begins...
 ---
 
-# Beginning The Audit
+# 1⃣ Beginning The Audit
 
 Examine The Repo
 
-The best place to start is almost always `README.md`, if there is none (or its a default generated `README.md`) then the second thing to do is scan the `.sol` files for block comments that explain technical design/gotchas.
+The best place to start is almost always `README.md`. If there is none (or its a default generated `README.md`) then the second thing to do is scan the `.sol` files for block comments that explain technical design/gotchas.
 
 If you read something that you think might yield an attack vector in the documentation, add a comment next to it and come back to re-evaluate it later. Adding specific tags such as `@audit` are helpful for grepping the codebase to be able to find all of your comments.
 
