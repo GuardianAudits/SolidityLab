@@ -18,6 +18,8 @@ If you pull a thread and you decided it's a viable vulnerability/finding, add it
 
 Remember to make `@audit` tags for gas optimizations you notice along the way as well, although these are not a priority.
 
+<figure><img src="../../.gitbook/assets/disorganized-embroidery-thread-02 (1).jpg" alt=""><figcaption></figcaption></figure>
+
 
 
 ### Ideating Attack Vectors
