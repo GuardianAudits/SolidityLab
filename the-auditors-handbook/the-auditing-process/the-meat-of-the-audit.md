@@ -2,11 +2,11 @@
 description: Digging in
 ---
 
-# The Meat of The Audit
+# 2⃣ The Meat of The Audit
 
 ### Pulling Threads
 
-You understand the contract system at a high level, now it's time to go back to your `@audit` tags and start pulling on threads.
+At this point, you understand the contract system at a high level. Now it's time to go back to your `@audit` tags and start pulling on threads.
 
 Examine the execution path for any edge cases you tagged, and do some further digging for the questions you left.
 
@@ -26,7 +26,7 @@ After you've pulled all of your initial threads, you'll have a substantial amoun
 
 Firstly, run a static analyzer like [Slither](https://github.com/crytic/slither) and mark all of the interesting flags in-code with an `@audit` tag.
 
-Many of the bugs and vulnerabilities that affect a codebase are particular to the protocol, these findings simply require context (which we already have) and creativity. Here's how we can hack creativity and come up with interesting bespoke attack vectors:
+Many of the bugs and vulnerabilities that affect a codebase are particular to the protocol. Protocol-unique findings simply require context (which we already have) and creativity. Here's how we can hack creativity and come up with interesting bespoke attack vectors:
 
 * Enumerate all of the knobs an attacker can control. What public/external functions are there? What state could they affect? Does it matter if some of these tx's are frontrun? Can sending ERC20 tokens or Ether to an address change the behavior of the contracts?\
   \
@@ -42,22 +42,22 @@ Many of the bugs and vulnerabilities that affect a codebase are particular to th
   * The attacker abuses some precision loss
   * The list goes on...
 
-Once you've generated a few @aduit tags and a handful of possible attack vectors, it's time to start pulling those threads again. Auditing is an iterative process of examining code paths, making `@audit` tags, learning more about the code, and coming up with new attack vectors.
+Once you've generated a few `@audit` tags and a handful of possible attack vectors, it's time to start pulling those threads again. Auditing is an iterative process of examining code paths, making `@audit` tags, learning more about the code, and coming up with new attack vectors.
 
 <figure><img src="../../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
 
-If you truly run out of ideas/threads to pull on, do a deep review of every file, reading line-by-line and leaving `@audit` tags for things that you don't understand or seem off, this is a guaranteed way to yield more threads to pull on.
+If you truly run out of ideas/threads to pull on, do a deep review of every file, reading line-by-line and leaving `@audit` tags for things that you don't understand or seem off. This is a guaranteed way to yield more threads to pull on.
 
 {% hint style="info" %}
-This is also a good stage to come up with invariants to later verify with security tools like fuzzing, symbolic analysis, or formal verification. More on this in "Security Tools" (under construction).
+This is also a good stage to come up with invariants to later verify with security tools that perform fuzzing, symbolic analysis, or formal verification. More on this in "Security Tools" (under construction).
 {% endhint %}
 
 
 
 ### Collaboration
 
-When you stumble across something particularly alarming/confusing in the code, alert your fellow auditors, there's a good chance they noticed it too and have their own thoughts about it.
+When you stumble across something particularly alarming/confusing in the code, alert your fellow auditors. There's a good chance they noticed it too and have their own thoughts about it.
 
 Discuss attack vectors as a group as much as possible, a lot of times you’ll hop on a call with an idea for an attack and it turns out to be invalid, but your fellow auditor has context on another part of the system that could combine with your idea to yield a valid vulnerability.
 
-Invest heavily in the shared knowledge of your group, this corpus allows you to ideate new attack vectors and validate/invalidate potential leads much quicker than any individual auditor.
+Invest heavily in the shared knowledge of your group. The corpus of the group allows you to ideate new attack vectors and validate/invalidate potential leads much faster than any individual auditor.
