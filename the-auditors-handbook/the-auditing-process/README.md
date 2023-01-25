@@ -4,6 +4,8 @@ description: The all-in-one guide to the smart contract audit process
 
 # 📝 The Auditing Process
 
+Find a summary thread here: [https://twitter.com/0xOwenThurm/status/1618386420456099841](https://twitter.com/0xOwenThurm/status/1618386420456099841)
+
 {% content-ref url="audit-setup-preparation.md" %}
 [audit-setup-preparation.md](audit-setup-preparation.md)
 {% endcontent-ref %}
