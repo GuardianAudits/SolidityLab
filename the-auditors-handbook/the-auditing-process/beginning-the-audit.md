@@ -10,7 +10,7 @@ The best place to start is almost always `README.md`. If there is none (or its a
 
 If you read something that you think might yield an attack vector in the documentation, add a comment next to it and come back to re-evaluate it later. Adding specific tags such as `@audit` are helpful for grepping the codebase to be able to find all of your comments.
 
-Next, examine the test coverage for any gaps. This will give you a good idea of the quality of code you're dealing with and may point you toward some good areas to focus on once you get into the meat of the audit.
+Next, run the tests and examine the coverage for any gaps. This will give you a good idea of the quality of code you're dealing with and may point you toward some good areas to focus on once you get into the meat of the audit.
 
 {% hint style="info" %}
 [solidity-coverage](https://www.npmjs.com/package/solidity-coverage) is a helpful package for tracking the code coverage of a hardhat test suite.&#x20;
