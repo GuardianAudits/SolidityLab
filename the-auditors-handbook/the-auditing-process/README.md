@@ -24,10 +24,6 @@ description: The all-in-one guide to the smart contract audit process
 [wrapping-up-the-audit.md](wrapping-up-the-audit.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="addendum.md" %}
 [addendum.md](addendum.md)
 {% endcontent-ref %}
