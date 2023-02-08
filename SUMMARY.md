@@ -11,6 +11,7 @@
   * [🕐 block.timestamp Manipulation](encyclopedia-of-solidity-attack-vectors/block.timestamp-manipulation.md)
   * [🎣 tx.origin Phishing Attack](encyclopedia-of-solidity-attack-vectors/tx.origin-phishing-attack.md)
   * [📩 Directly Sending Funds](encyclopedia-of-solidity-attack-vectors/directly-sending-funds.md)
+  * [✍ Signature Malleability](encyclopedia-of-solidity-attack-vectors/signature-malleability.md)
 * [📚 Encyclopedia of Common Solidity Bugs](encyclopedia-of-common-solidity-bugs/README.md)
   * [➗ Division Precision Loss](encyclopedia-of-common-solidity-bugs/division-precision-loss.md)
   * [‼ Unexpected Panic Revert](encyclopedia-of-common-solidity-bugs/unexpected-panic-revert.md)
