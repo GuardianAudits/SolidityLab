@@ -10,7 +10,7 @@ This is a community aimed at building and sharing a wealth of blockchain and sol
 
 Apply to join below.
 
-:exclamation:**If it's a good fit you will immediately see an invite after submitting**:exclamation:
+:exclamation:**If it's a good fit you will immediately see an invite on the next page after submitting**:exclamation:
 
 {% embed url="https://docs.google.com/forms/d/e/1FAIpQLScHMxP3LTU96heRoV8DHeEEK1YIKqtbOWcT4cK9lAUkx0ZyUQ/viewform?usp=sf_link" %}
 
