@@ -8,15 +8,7 @@ Welcome to the Solidity Lab!
 
 This is a community aimed at building and sharing a wealth of blockchain and solidity knowledge to help developers/auditors of all levels transform the web3 ecosystem.
 
-Apply to join below.
-
-:exclamation::point\_right:➡️ **If it's a good fit you will immediately see an invite on the next page after submitting** ⬅️:point\_left:****:exclamation:
-
-{% embed url="https://docs.google.com/forms/d/e/1FAIpQLScHMxP3LTU96heRoV8DHeEEK1YIKqtbOWcT4cK9lAUkx0ZyUQ/viewform?usp=sf_link" %}
-
-
-
-
+Apply to join [here](https://docs.google.com/forms/d/e/1FAIpQLScHMxP3LTU96heRoV8DHeEEK1YIKqtbOWcT4cK9lAUkx0ZyUQ/viewform) ⬅️
 
 ### What Is Solidity Lab?
 
