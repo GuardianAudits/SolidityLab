@@ -4,7 +4,7 @@
 tx.origin and msg.sender can be used to get the address of the account making the call, however there is extra context that is vital to keep in mind.
 
 We have 3 components in our example
-1. Alice, the address of Alice's wallet in our example is 0x01 (The Depositer).
+1. Alice, the address of Alice's wallet in our example is 0x01 (The Depositor).
 2. Bob, Bob has deployed a malicious contract in our example at address 0x02
 3. The vulnerable contract, Pool, this is deployed in our example at address 0x03
 <br><br>
@@ -13,7 +13,7 @@ In each scenario the Depositor address should be ```0x01``` to be able to withdr
 Here is the Vulnerable contract, note the check for access control in the ```withdrawfunds()``` function uses ```tx.origin```<br><br>
 ![Pool](pool.png)<br><br>
 
-Below is Bob's malicious contract.
+Below is Bob's malicious contract.<br><br>
 ![Mal](mal.png) 
 
 Let's first look at the path from Alice to the Pool contract where no malicious actions happen.
