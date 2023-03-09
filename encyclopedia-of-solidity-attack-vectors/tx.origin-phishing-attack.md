@@ -11,10 +11,10 @@ We have 3 components in our example
 In each scenario the Depositor address should be ```0x01``` to be able to withdraw funds from the Pool contract.<br><br>
 
 Here is the Vulnerable contract, note the check for access control in the ```withdrawfunds()``` function uses ```tx.origin```<br><br>
-![Pool](pool.png)<br><br>
+![Pool](images/pool.png)<br><br>
 
 Below is Bob's malicious contract.<br><br>
-![Mal](mal.png) 
+![Mal](images/mal.png) 
 
 Let's first look at the path from Alice to the Pool contract where no malicious actions happen.
 Alice calls ```widrawfunds()``` at 0x03, in this instance Alice's wallet address will be both the ```msg.sender``` and the ```tx.origin```, and therefore the funds are sent to the correct caller.<br><br>
