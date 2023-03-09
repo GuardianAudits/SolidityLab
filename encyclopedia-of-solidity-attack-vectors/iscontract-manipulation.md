@@ -72,7 +72,7 @@ Below are screenshots of the value held by ```allTheirValue``` after deployment 
 
 First deploy ```VulnerableContract```<br><br>
 Copy the deployed address of ```VulnerableContract``` and deploy the ```testCodeSize``` contract<br><br>
-Directly after the deployment of the ```testCodeSize``` contract the value of the ```allTheirValue``` variable holds a really large value<br><br>
+Directly after the deployment of the ```testCodeSize``` contract, the value of the ```allTheirValue``` variable holds a really large value<br><br>
 ![valueofallTheirValue1](images/valueofallTheirValue1.png)<br><br>
 After calling ```VulnerableContract.notcontracts()``` the value of the ```allTheirValue``` variable is now "0" as the ```testCodeSize``` contract now has code associated with it.<br><br>
 ![valueofallTheirValue2](images/valueofallTheirValue2.png)<br><br>
