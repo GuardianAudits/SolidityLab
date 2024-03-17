@@ -17,7 +17,7 @@ The code checks if the address at ```who_is_calling``` has code associated with 
 There is a way to make a malicious contract seem as though there is no code associated with it, and that is by calling the vulnerable contract and function from within the malicious contract's constructor.<br><br>
 Below is a vulnerable contract and a test contract to test this concept. We will be using anvil from the Foundry suite to deploy from Remix.<br><br>
 
-```
+```javascript 
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.18;
 
