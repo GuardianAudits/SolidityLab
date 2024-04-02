@@ -6,7 +6,7 @@ We'll delve into how attackers exploit this weakness and explore strategies to f
 ## What is DOS ?
 
 Denial-of-Service (DoS) attacks aim to disrupt the normal operation of a contract, preventing legitimate users from interacting with it. <br>
-Smart contracts, while powerful tools for decentralized applications, can be susceptible to malicious attacks. <br>
+Smart contracts, while powerful tools for decentralized applications, can be susceptible to those malicious attacks. <br>
 
 ## Example
 
@@ -45,8 +45,8 @@ contract King 👑 {
 
 By default, smart contracts don't accept Ether.<br>
 For accepting them, there's a need for a `receive` and/or `fallback` function.<br>
-The problem with this contract is the fact  it assume that the new king is a EOA (i.e. a Wallet) and can accept Ether.
-However is the next example we can see that the caller isn't a Wallet but instead a smart contract that can't accept Ether.
+The problem with this contract is the fact it assume that the new king is a EOA (i.e. a Wallet) and can accept Ether.
+However is the next example we can see that the caller isn't a EOA but instead a smart contract that can't accept Ether.
 It will revert if the user's contract look like this :
 
 ```solidity
@@ -59,14 +59,14 @@ contract CannotAcceptETH{
 Indeed, the above contract has no `receive` nor `fallback` function.
 
 
-From there the contract is Doom as soon as a contract that didn't implement those function becomes the new King.<br>
+From there the contract is Doom as soon as this contract becomes the new King.<br>
 The King will stay King forever but could never get back the money they bid.<br>
 
 ## Mitigation and Best Practice:
 
-In this example to prevent this we could : <br><br>
+In this example, to prevent this we could : <br><br>
 
-  - Give access to the `owner` to remove the current king (but it would not be decentralized).
+  - Give access to the `owner` to remove the current king (but it would not be decentralized):
 ```solidity
     // Emergency function to reclaim the throne if Ether transfer fails persistently
     function reclaimThrone() external {
@@ -77,9 +77,10 @@ In this example to prevent this we could : <br><br>
   - Only accept ERC-20 like WETH, that will not trigger a revert.
 
 This kind of Attack through DOS is one of many ways things can go wrong.
-A good rule of thumb while auditing is to be extra careful when calling an arbitrary address.
+A good rule of thumb while auditing is to:<br> 
+ ***Be extra careful when calling an arbitrary address.***
 
-Conclusion:
+## Conclusion:
 
 This was an example of a User contract that can't accept Ether and DOS the King contract.
 
