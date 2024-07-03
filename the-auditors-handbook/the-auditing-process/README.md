@@ -1,37 +1,23 @@
 ---
-description: The all-in-one guide to the smart contract audit process
+Description: The all-in-one guide to the smart contract audit process
 ---
 
 # 📝 The Auditing Process
 
-Find a summary thread here:point\_down:
+Find a summary thread here: 👇
 
-{% embed url="https://twitter.com/0xOwenThurm/status/1618386420456099841" %}
+- [Owen's Twitter Thread](https://twitter.com/0xOwenThurm/status/1618386420456099841)
 
-{% content-ref url="audit-setup-preparation.md" %}
-[audit-setup-preparation.md](audit-setup-preparation.md)
-{% endcontent-ref %}
+- [audit-setup-preparation.md](audit-setup-preparation.md)
 
-{% content-ref url="beginning-the-audit.md" %}
-[beginning-the-audit.md](beginning-the-audit.md)
-{% endcontent-ref %}
+- [beginning-the-audit.md](beginning-the-audit.md)
 
-{% content-ref url="the-meat-of-the-audit.md" %}
-[the-meat-of-the-audit.md](the-meat-of-the-audit.md)
-{% endcontent-ref %}
+- [the-meat-of-the-audit.md](the-meat-of-the-audit.md)
 
-{% content-ref url="writing-tests-and-pocs.md" %}
-[writing-tests-and-pocs.md](writing-tests-and-pocs.md)
-{% endcontent-ref %}
+- [writing-tests-and-pocs.md](writing-tests-and-pocs.md)
 
-{% content-ref url="wrapping-up-the-audit.md" %}
-[wrapping-up-the-audit.md](wrapping-up-the-audit.md)
-{% endcontent-ref %}
+- [wrapping-up-the-audit.md](wrapping-up-the-audit.md)
 
-{% content-ref url="after-the-audit.md" %}
-[after-the-audit.md](after-the-audit.md)
-{% endcontent-ref %}
+- [after-the-audit.md](after-the-audit.md)
 
-{% content-ref url="addendum.md" %}
-[addendum.md](addendum.md)
-{% endcontent-ref %}
+- [addendum.md](addendum.md)
