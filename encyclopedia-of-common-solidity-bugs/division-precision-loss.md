@@ -84,17 +84,17 @@ But mutiply a number that might has been round down by 1 Trillion seems not to b
 
 ```javascript
 If we adjust our example above and change c to 1e12,
-The expected result is 55e12. However:
+The expected result is 5.5e12. However:
 
 uint a = 11;
 uint b = 2;
 uint c = 1e12;
 
-a / b * c = 50e12
+a / b * c = 5e12
 
-55e12 - 50e12 = 5e12;
+5.5e12 - 5e12 = 0.5e12;
 
-The difference is 5e12, indicating a 5 trillion error. 🤯
+The difference is 0.5e12, indicating a half-a-trillion error. 🤯
 ```
 
 [Source of findind here](https://solodit.xyz/issues/m-8-buyussdsellcollateral-always-sells-0-amount-if-need-to-sell-part-of-collateral-sherlock-none-ussd-autonomous-secure-dollar-git) 
