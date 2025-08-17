@@ -30,6 +30,7 @@
   * [🕵 Delete Item, Unupdated Index](encyclopedia-of-common-solidity-bugs/delete-item-unupdated-index.md)
   * [🎁 Native vs Wrapped Handling](encyclopedia-of-common-solidity-bugs/native-vs-wrapped-handling.md)
   * [1⃣ 1⃣ 1⃣ Off By 1](encyclopedia-of-common-solidity-bugs/off-by-1.md)
+* [Encyclopedia of Security Research](encyclopedia-of-security-research/README.md)
 * [📙 The Auditors Handbook](the-auditors-handbook/README.md)
   * [📝 The Auditing Process](the-auditors-handbook/the-auditing-process/README.md)
     * [0⃣ Audit Setup/Preparation](the-auditors-handbook/the-auditing-process/audit-setup-preparation.md)
