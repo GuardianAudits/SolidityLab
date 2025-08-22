@@ -21,7 +21,7 @@
 
 ## Edge Cases & Exploit Vectors
 
-- If the target lzRead function reverts instead of successfully executing then the messaging channel can become stuck. Reference: https://x.com/GuardianAudits/status/1934234468841316601
+- If the target lzRead function reverts instead of successfully executing then the messaging channel can become stuck. [Reference](https://x.com/GuardianAudits/status/1934234468841316601)
 - Re-orgs can cause a mis-reported owner at the target block if the confirmations is not set high enough
 - The delay between what block/timestamp an lzRead function is queried at and when the lzReceive result comes back is a dangerous no-man's land period. When an lzRead result is reported back through lzReceive, know that the result only attests to the state of the target contract/chain a handful of seconds ago, and that state could have changed.
 - With smart contract wallets/multisig wallets it's possible that one user owns address 0xA on one chain and a different user owns the same address 0xA on a different chain 
@@ -46,7 +46,7 @@
 
 ## Audit References & Resources
 
-- Yuga Labs Shadows 1: https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-01-17_YugaLabs_NFT_Shadows.pdf
-- Yuga Labs Shadows 2: https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-02-05_YugaLabs_NFT_Shadows_2.pdf
-- Azuki Animecoin: https://github.com/GuardianAudits/Audits/tree/main/Animecoin
-- lzRead Blocked Channel Thread: https://x.com/GuardianAudits/status/1934234468841316601
+- [Yuga Labs Shadows 1](https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-01-17_YugaLabs_NFT_Shadows.pdf)
+- [Yuga Labs Shadows 2](https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-02-05_YugaLabs_NFT_Shadows_2.pdf)
+- [Azuki Animecoin](https://github.com/GuardianAudits/Audits/tree/main/Animecoin)
+- [lzRead Blocked Channel Thread](https://x.com/GuardianAudits/status/1934234468841316601)
