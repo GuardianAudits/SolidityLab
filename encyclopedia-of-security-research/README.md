@@ -6,6 +6,9 @@ description: Every known common solidity bug
 
 ## Common Patterns & Integrations
 
-{% content-ref url="uniswap-v4.md" %}
-[uniswap-v4.md](uniswap-v4.md)
+{% content-ref url="uniswap.md" %}
+[uniswap.md](uniswap.md)
+{% endcontent-ref %}
+{% content-ref url="layerzero.md" %}
+[layerzero.md](layerzero.md)
 {% endcontent-ref %}

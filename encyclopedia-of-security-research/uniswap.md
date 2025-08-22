@@ -1,3 +1,20 @@
+# Uniswap
+
+# Uniswap V3
+
+## Edge Cases & Exploit Vectors
+
+- It is possible to mint a position to any address, the to address can be an integrating contract which may invalidate internal accounting of an integration
+- The Uniswap protocol rounds against the user and in favor of the pool in all actions, this can cause off-by-one DoS's
+
+
+## Checklist Items
+
+
+
+## Audit References & Resources
+
+
 # Uniswap V4
 
 ## Edge Cases & Exploit Vectors
