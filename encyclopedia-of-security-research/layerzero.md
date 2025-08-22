@@ -49,3 +49,4 @@
 - Yuga Labs Shadows 1: https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-01-17_YugaLabs_NFT_Shadows.pdf
 - Yuga Labs Shadows 2: https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-02-05_YugaLabs_NFT_Shadows_2.pdf
 - Azuki Animecoin: https://github.com/GuardianAudits/Audits/tree/main/Animecoin
+- lzRead Blocked Channel Thread: https://x.com/GuardianAudits/status/1934234468841316601
