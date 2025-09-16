@@ -33,6 +33,7 @@
 * [Encyclopedia of Security Research](encyclopedia-of-security-research/README.md)
   * [Uniswap](encyclopedia-of-security-research/uniswap.md)
   * [LayerZero](encyclopedia-of-security-research/layerzero.md)
+  * [Whitelists](encyclopedia-of-security-research/whitelists.md)
 * [📙 The Auditors Handbook](the-auditors-handbook/README.md)
   * [📝 The Auditing Process](the-auditors-handbook/the-auditing-process/README.md)
     * [0⃣ Audit Setup/Preparation](the-auditors-handbook/the-auditing-process/audit-setup-preparation.md)

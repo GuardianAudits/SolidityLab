@@ -13,3 +13,7 @@ description: Every known common solidity bug
 {% content-ref url="layerzero.md" %}
 [layerzero.md](layerzero.md)
 {% endcontent-ref %}
+
+{% content-ref url="whitelists.md" %}
+[whitelists.md](layerzero.md)
+{% endcontent-ref %}
