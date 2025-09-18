@@ -6,11 +6,21 @@
 ## Edge Cases & Exploit Vectors
 
 - When sending requests through the endpoint send function, the refund receiver will receive Ether refunds. This address could re-enter, gas grief, DoS etc...
+- Many production tokens (e.g., GMX) do not return a boolean from their mint/burn methods. Calling them through LayerZero’s standard [IMintableBurnable](https://github.com/LayerZero-Labs/devtools/blob/aa43d67ec0ca5a1668b9174a3f3a032e6ce8693d/packages/oft-evm/contracts/interfaces/IMintableBurnable.sol), which expects a bool, will revert. For such tokens use an interface without a return value, e.g.:
+```solidity
+    // SPDX-License-Identifier: UNLICENSED
+    pragma solidity ^0.8.22;
 
+    interface IGMXMinterBurnable {
+        function burn(address _account, uint256 _amount) external;
+        function mint(address _account, uint256 _amount) external;
+    }
+```
 
 ## Checklist Items
 
 - Did you check the refundReceiver specified in the send call for DoS, Re-entrancy, Gas griefing?
+- Did you verify the mint/burn interface matches the underlying token (i.e., it may not return a bool)?
 
 
 ## Audit References & Resources
