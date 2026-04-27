@@ -25,6 +25,9 @@
 
 ## Audit References & Resources
 
+- [Ethena Onchain Minter](https://github.com/GuardianAudits/Audits/blob/main/Ethena/2025-12-02_Ethena_Onchain_Minter_report.pdf)
+- [USDT0 OFT](https://github.com/GuardianAudits/Audits/blob/main/USDT0/USDT0_OFT.pdf)
+- [GMX V2.2](https://github.com/GuardianAudits/Audits/tree/main/GMX/V2.2)
 
 
 # lzRead
