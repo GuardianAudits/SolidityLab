@@ -16,11 +16,13 @@
         function mint(address _account, uint256 _amount) external;
     }
 ```
+- Shared nonce channels can enable token-level DoS if multiple token flows share the same channel/nonce sequencing. See LayerZero Console Report, Round Three Findings, I-01 on page 90.
 
 ## Checklist Items
 
 - Did you check the refundReceiver specified in the send call for DoS, Re-entrancy, Gas griefing?
 - Did you verify the mint/burn interface matches the underlying token (i.e., it may not return a bool)?
+- Did you verify that nonce/channel design does not let one token flow DoS another through shared sequencing?
 
 
 ## Audit References & Resources
@@ -28,6 +30,7 @@
 - [Ethena Onchain Minter](https://github.com/GuardianAudits/Audits/blob/main/Ethena/2025-12-02_Ethena_Onchain_Minter_report.pdf)
 - [USDT0 OFT](https://github.com/GuardianAudits/Audits/blob/main/USDT0/USDT0_OFT.pdf)
 - [GMX V2.2](https://github.com/GuardianAudits/Audits/tree/main/GMX/V2.2)
+- [LayerZero Console Report](https://github.com/GuardianAudits/Audits/blob/main/LayerZero/LayerZero_Console_Report.pdf)
 
 
 # lzRead
